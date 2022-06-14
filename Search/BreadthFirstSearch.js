@@ -10,6 +10,9 @@ class Node {
   }
 }
 
+/**
+ *
+ */
 class BinarySearchTree {
   constructor() {
     this.root = null;
@@ -87,6 +90,13 @@ class BinarySearchTree {
   }
   remove(value) {}
 
+  /**
+   *
+   * @param {*} node
+   * @param {*} queue
+   * @param {*} answer
+   * @returns
+   */
   breadthFirstSearch(node, queue = [], answer = []) {
     let currentNode = node;
     answer.push(currentNode.value);
