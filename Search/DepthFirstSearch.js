@@ -1,3 +1,7 @@
+/**
+ * Class Node
+ * - this class creates a node for a tree data structure with a pointer to it's right and left child nodes.
+ */
 class Node {
   constructor(value) {
     this.value = value;
